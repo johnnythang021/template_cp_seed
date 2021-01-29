@@ -1,0 +1,17 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-orange {
+  color: #fff !important;
+  background-color: #fa8a51 !important;
+  border-color: #fa8a51 !important;
+}
+
+.btn-orange:hover {
+  background-color: #fa732f !important;
+  border-color: #fa732f !important;
+  -webkit-box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+          box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+/*# sourceMappingURL=shoppingcart_success.css.map */

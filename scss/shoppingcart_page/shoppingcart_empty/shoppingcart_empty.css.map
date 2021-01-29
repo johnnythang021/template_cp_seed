@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,oBAAoB;CAClC",
+    "sources": [
+        "shoppingcart_empty.scss"
+    ],
+    "names": [],
+    "file": "shoppingcart_empty.css"
+}

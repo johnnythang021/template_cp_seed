@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/scss/product/product.css" />
+    <title>Product</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row header">
+        <div class="col-sm-3 mt-4">
+          <a class="header__logo text-decoration-none" href="#">CP Seed</a>
+        </div>
+        <div class="col-sm-9 mt-3">
+          <div class="d-flex justify-content-end">
+            <div class="bd-highlight" style="margin-right: 30px">
+              <form class="d-flex align-items-end" style="height: 45px">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-primary"
+                  style="width: 150px"
+                  type="submit"
+                >
+                  Tìm kiếm
+                </button>
+              </form>
+            </div>
+
+            <div class="bd-highlight" style="width: 150px">
+              <div class="d-flex flex-row bd-highlight mt-2">
+                <div class="p-2 bd-highlight">
+                  <img src="/photos/user.svg" alt="logo user" />
+                </div>
+                <div class="py-2 bd-highlight">
+                  <a class="text-decoration-none" href="#">Đăng nhập</a>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 bd-highlight"></div>
+            <!-- Cart -->
+            <div class="bd-highlight" style="width: 120px">
+              <div class="d-flex flex-row bd-highlight mt-2">
+                <a href="#">
+                  <div class="p-2 bd-highlight">
+                    <img src="/photos/cart-thin.svg" alt="logo user" />
+                  </div>
+                  <div class="py-2 bd-highlight">
+                    <a class="text-decoration-none" href="#">Giỏ hàng</a>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- Cart -->
+          </div>
+        </div>
+      </div>
+      <div class="row p-2"></div>
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="ml-5 col-sm-9">
+          <div class="d-flex justify-content-start">
+            <div class="pt-3 bd-highlight">
+              <div style="padding-top: 6px">Sắp xếp theo</div>
+            </div>
+            <div class="p-2 bd-highlight"></div>
+            <div class="pt-3 bd-highlight">
+              <button
+                type="button"
+                class="btn btn-outline-primary border-0 text-dark btn-sort"
+              >
+                Bán chạy
+              </button>
+            </div>
+            <div class="pt-3 bd-highlight">
+              <button
+                type="button"
+                class="btn btn-outline-primary border-0 text-dark btn-sort"
+              >
+                Hàng mới
+              </button>
+            </div>
+            <div class="pt-3 bd-highlight">
+              <button
+                type="button"
+                class="btn btn-outline-primary border-0 text-dark btn-sort"
+              >
+                Giá thấp
+              </button>
+            </div>
+            <div class="pt-3 bd-highlight">
+              <button
+                type="button"
+                class="btn btn-outline-primary border-0 text-dark btn-sort"
+              >
+                Giá cao
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row p-3"></div>
+      <div class="row">
+        <div class="col-sm-3">
+          <h4 class="mt-2">Danh mục sản phẩm</h4>
+          <div class="d-flex flex-column bd-highlight">
+            <div class="p-2 bd-highlight">
+              <a class="p-2 text-decoration-none" href="#"
+                >Điện thoại Smartphone</a
+              >
+            </div>
+            <div class="p-2 bd-highlight">
+              <a class="p-2 text-decoration-none" href="#"
+                >Điện thoại Smartphone</a
+              >
+            </div>
+            <div class="p-2 bd-highlight">
+              <a class="p-2 text-decoration-none" href="#"
+                >Điện thoại Smartphone</a
+              >
+            </div>
+            <div class="p-2 bd-highlight">
+              <a class="p-2 text-decoration-none" href="#"
+                >Điện thoại Smartphone</a
+              >
+            </div>
+            <div class="p-2 bd-highlight">
+              <a class="p-2 text-decoration-none" href="#"
+                >Điện thoại Smartphone</a
+              >
+            </div>
+          </div>
+          <div class="row p-3"></div>
+          <h4>Giá</h4>
+          <div class="d-flex flex-column bd-highlight mb-3">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="form-check-label" for="flexCheckDefault">
+                Điện thoại Smartphone
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckChecked"
+                checked
+              />
+              <label class="form-check-label" for="flexCheckChecked">
+                Điện thoại Smartphone
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="d-flex flex-column bd-highlight mb-3" style="width: 100%">
+            <div class="py-2 bd-highlight">
+              <h4>Điện Thoại - Máy Tính Bảng: 433 kết quả</h4>
+            </div>
+            <div class="p-2 bd-highlight">
+              <div class="d-flex flex-row">
+                <!-- Card Product-->
+                <div class="card border-0">
+                  <img
+                    src="/photos/product.svg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Điện Thoại Vsmart Joy 4 - Hàng Chính Hãng
+                    </p>
+                    <h5 class="card-title">2.690.000 ₫</h5>
+                    <div class="d-flex justify-content-between pt-3">
+                      <a href="#" class="btn btn-primary">Xem chi tiết</a>
+                      <a href="#" class="btn btn-danger">Mua ngay</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Product-->
+                <!-- Card Product-->
+                <div class="card border-0">
+                  <img
+                    src="/photos/product.svg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Điện Thoại Vsmart Joy 4 - Hàng Chính Hãng
+                    </p>
+                    <h5 class="card-title">2.690.000 ₫</h5>
+                    <div class="d-flex justify-content-between pt-3">
+                      <a href="#" class="btn btn-primary">Xem chi tiết</a>
+                      <a href="#" class="btn btn-danger">Mua ngay</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Product-->
+                <!-- Card Product-->
+                <div class="card border-0">
+                  <img
+                    src="/photos/product.svg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Điện Thoại Vsmart Joy 4 - Hàng Chính Hãng
+                    </p>
+                    <h5 class="card-title">2.690.000 ₫</h5>
+                    <div class="d-flex justify-content-between pt-3">
+                      <a href="#" class="btn btn-primary">Xem chi tiết</a>
+                      <a href="#" class="btn btn-danger">Mua ngay</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Product-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

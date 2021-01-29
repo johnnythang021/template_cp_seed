@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,oBAAoB;CAClC;;AAGD,AAAA,WAAW,CAAC;EACV,KAAK,EAAE,eAAe;EACtB,gBAAgB,EAJT,OAAO,CAIY,UAAU;EACpC,YAAY,EALL,OAAO,CAKQ,UAAU;CAOjC;;AAVD,AAKE,WALS,AAKR,MAAM,CAAC;EACN,gBAAgB,EAPN,OAAO,CAOc,UAAU;EACzC,YAAY,EARF,OAAO,CAQU,UAAU;EACrC,UAAU,EAAE,CAAC,CAAC,OAAO,CAAC,OAAO,CAAC,oBAAoB,CAAC,UAAU;CAC9D",
+    "sources": [
+        "shoppingcart_success.scss"
+    ],
+    "names": [],
+    "file": "shoppingcart_success.css"
+}
